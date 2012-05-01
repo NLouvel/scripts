@@ -83,6 +83,7 @@ menu (){
 ##############################################
 supp (){
 	nom=""
+	echo " Qu'elle vhost ?"
 	read nom
 	echo $nom
 	if `test -e $di_e/$nom`
